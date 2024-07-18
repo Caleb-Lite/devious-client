@@ -51,4 +51,19 @@ public interface LoginAssistantConfig extends Config {
     default String sessionEndpoint() {
         return "https://auth.jagex.com/game-session/v1/sessions";
     }
+
+    @ConfigItem(
+            keyName = "savedAccounts",
+            name = "Saved Accounts",
+            description = "Saved account credentials",
+            secret = true
+    )
+    String savedAccounts();
+
+    @ConfigItem(
+            keyName = "savedAccounts",
+            name = "Saved Accounts",
+            description = "Saved account credentials"
+    )
+    void setSavedAccounts(String accounts);
 }
