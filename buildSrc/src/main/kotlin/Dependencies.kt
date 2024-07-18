@@ -36,5 +36,5 @@ object ProjectVersions {
 
     const val flatLafVersion = "3.2.5-rl4"
 
-    const val unethicaliteVersion = "1.0.20-STABLE"
+    const val unethicaliteVersion = "1.0.20-EXPERIMENTAL"
 }
